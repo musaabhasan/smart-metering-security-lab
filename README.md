@@ -1,4 +1,4 @@
-﻿# Smart Metering Security Lab
+# Smart Metering Security Lab
 
 A PHP 8.x and MySQL 8.0 research portal based on the paper **"A Security Study for Smart Metering Systems"** by Musaab Hasan, Farkhund Iqbal, Patrick C. K. Hung, Benjamin C. M. Fung, and Laura Rafferty.
 

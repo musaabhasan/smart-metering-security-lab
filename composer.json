@@ -1,0 +1,21 @@
+{
+  "name": "musaabhasan/smart-metering-security-lab",
+  "description": "PHP/MySQL research portal based on the smart metering security study by Hasan, Iqbal, Hung, Fung, and Rafferty.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SmartMeterLab\\": "src/"
+    }
+  },
+  "scripts": {
+    "lint": "php -d display_errors=1 bin/lint.php",
+    "test": "php -d display_errors=1 bin/test.php"
+  }
+}
